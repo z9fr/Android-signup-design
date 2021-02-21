@@ -2,4 +2,4 @@
 This is basic android signup application with validations ( Using Java) 
 
 
-![ss](https://github.com/d4az/Android-signup-design/edit/master/README.md)
+![screenshot](https://raw.githubusercontent.com/d4az/Android-signup-design/master/the%20preview/preview01.jpg)
