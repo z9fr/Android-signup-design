@@ -76,14 +76,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-
+    
     public void validate(){
         String uname = thename.getEditText().getText().toString();
         String uemail = email.getEditText().getText().toString().trim();
         String uphone = phone.getEditText().getText().toString().trim();
         String upassw = pasw.getEditText().getText().toString().trim();
-
 
         if(uname.isEmpty() || uemail.isEmpty() || uphone.isEmpty() || upassw.isEmpty()){
             Snackbar.make(parent,"Please fill all the fields", Snackbar.LENGTH_INDEFINITE)
@@ -116,8 +114,6 @@ public class MainActivity extends AppCompatActivity {
                     })
                     .show();
         }
-
     }
-
 
 }
