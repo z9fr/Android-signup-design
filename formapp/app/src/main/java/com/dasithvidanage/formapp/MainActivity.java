@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
                validate();
             }
         });
-
     }
     public void validate(){
         String uname = thename.getEditText().getText().toString();
