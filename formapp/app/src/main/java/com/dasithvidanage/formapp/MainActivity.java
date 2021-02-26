@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         menu = findViewById(R.id.menu);
 
         ArrayList<String> country = new ArrayList<>();
@@ -56,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
 
         menu.setAdapter(Countryadd);
         sumitbtn = findViewById(R.id.sumitbtn);
-
 
        //values
         thename = findViewById(R.id.thename);
