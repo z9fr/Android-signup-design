@@ -1,5 +1,4 @@
 package com.dasithvidanage.formapp;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
