@@ -16,9 +16,12 @@ import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+
 import com.google.android.material.textview.MaterialTextView;
 import org.w3c.dom.Text;
+
 import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     private Spinner menu;
