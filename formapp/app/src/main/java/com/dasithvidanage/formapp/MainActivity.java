@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private TextInputLayout phone;
     private TextInputLayout pasw;
     private RadioGroup radioGroup;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
         pasw = findViewById(R.id.passw);
         radioGroup = findViewById(R.id.radioGroup);
         parent = findViewById(R.id.themainthingidedlk);
-
 
         sumitbtn.setOnClickListener(new View.OnClickListener() {
             @Override
