@@ -17,11 +17,8 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.android.material.textview.MaterialTextView;
-
 import org.w3c.dom.Text;
-
 import java.util.ArrayList;
-
 public class MainActivity extends AppCompatActivity {
 
     private Spinner menu;
@@ -73,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    
     public void validate(){
         String uname = thename.getEditText().getText().toString();
         String uemail = email.getEditText().getText().toString().trim();
