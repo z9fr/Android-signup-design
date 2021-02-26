@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     private Button sumitbtn;
     private RelativeLayout parent;
 
-
     //theboxes
     private  TextInputLayout thename;
     private  TextInputLayout email;
